@@ -60,7 +60,7 @@
 
 #### 最终结果
 
-![信息增益率](images\图片8.png)
+![信息增益率](images/图片8.png)
 
 ### 2. 利用ARMA模型的自相关函数和偏自相关函数确定LSTM步数
 
@@ -69,7 +69,7 @@
 1. 时间复杂度尽量小（因为是采样计算，不存在空间复杂度的问题）
 2. 这里的目的仅是定阶，而非建立一个ARMA模型,所选步骤尽量“轻”，换句话说，就是越不依赖ARMA模型本身越好
 
-![定阶流程图](images\定阶流程图.png)
+![定阶流程图](images/定阶流程图.png)
 
 #### 2.1 平稳化处理
 
@@ -79,11 +79,11 @@
 
 
 
-![平稳化前](images\图片9.png)
+![平稳化前](images/图片9.png)
 
 **平稳化处理后**
 
-![处理后](images\图片10.png)
+![处理后](images/图片10.png)
 
 #### 2.2 游程检验
 
@@ -103,7 +103,7 @@
 
 **最终结果**（上图是ACF，下图是PACF）：
 
-![阶数判定](images\图片11.png)
+![阶数判定](images/图片11.png)
 
 ### 3. 损伤识别
 
@@ -130,11 +130,11 @@ DNN、LSTM，Bidirectional-LSTM，作横向对比
 
 ##### 3.1.2 Loss
 
-![DNN](images\图片12.png)
+![DNN](images/图片12.png)
 
 ##### 3.1.3 Accuracy
 
-![acc](images\DNN Accuracy.png)
+![acc](images/DNN Accuracy.png)
 
 #### 3.2 LSTM
 
@@ -158,11 +158,11 @@ DNN、LSTM，Bidirectional-LSTM，作横向对比
 
 ##### 3.2.2 Loss
 
-![LOSS](images\LSTM Loss.png)
+![LOSS](images/LSTM Loss.png)
 
 ##### 3.2.3 Accuracy
 
-![LSTM acc](images\LSTM acc.png)
+![LSTM acc](images/LSTM acc.png)
 
 #### 3.3 Bi-LSTM
 
@@ -186,30 +186,30 @@ DNN、LSTM，Bidirectional-LSTM，作横向对比
 
 ##### 3.3.2 Loss
 
-![Bi-LSTM loss](images\BI-lstm loss.png)
+![Bi-LSTM loss](images/BI-lstm loss.png)
 
 ##### 3.3.3 Accuracy
 
-![acc](images\bi-lstm acc.png)
+![acc](images/bi-lstm acc.png)
 
 ##### 3.3.4 Learning Rate
 
-![lr](images\bi-lstm 学习率.png)
+![lr](images/bi-lstm%20学习率.png)
 
 ### 4. 识别结果
 
 ##### 4.1 ACC(验证集)
 
-![acc](images\acc对比.png)
+![acc](images/acc对比.png)
 
 ##### 4.2 验证集混淆矩阵
 
-![DNN](images\DNN混淆矩阵.png) 		![LSTM](images\LSTM混淆矩阵.png)
-![Bi-LSTM](images\Bi-LSTM混淆矩阵.png)
+![DNN](images/DNN混淆矩阵.png) 		![LSTM](images/LSTM混淆矩阵.png)
+![Bi-LSTM](images/Bi-LSTM混淆矩阵.png)
 
 ##### 4.3 ROC
 
-![ROC](images\ROC.png)
+![ROC](images/ROC.png)
 
 ##### 4.4 AUC
 
