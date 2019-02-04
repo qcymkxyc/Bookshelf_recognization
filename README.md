@@ -75,7 +75,7 @@
 
 一般采集的结构数据都有周期性，所以这里差分和季节差分同时使用，差分取1阶，季节差分取2阶，季节周期取10，下面是平稳化处理前和处理后的对比：
 
-**平稳化处理前 **
+**平稳化处理前**
 
 
 
@@ -134,7 +134,7 @@ DNN、LSTM，Bidirectional-LSTM，作横向对比
 
 ##### 3.1.3 Accuracy
 
-![acc](images/DNN Accuracy.png)
+![acc](images/DNN-Accuracy.png)
 
 #### 3.2 LSTM
 
@@ -158,11 +158,11 @@ DNN、LSTM，Bidirectional-LSTM，作横向对比
 
 ##### 3.2.2 Loss
 
-![LOSS](images/LSTM Loss.png)
+![LOSS](images/LSTM-Loss.png)
 
 ##### 3.2.3 Accuracy
 
-![LSTM acc](images/LSTM acc.png)
+![LSTM acc](images/LSTM-acc.png)
 
 #### 3.3 Bi-LSTM
 
@@ -186,11 +186,11 @@ DNN、LSTM，Bidirectional-LSTM，作横向对比
 
 ##### 3.3.2 Loss
 
-![Bi-LSTM loss](images/BI-lstm loss.png)
+![Bi-LSTM loss](images/BI-lstm-loss.png)
 
 ##### 3.3.3 Accuracy
 
-![acc](images/bi-lstm acc.png)
+![acc](images/bi-lstm-acc.png)
 
 ##### 3.3.4 Learning Rate
 
