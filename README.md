@@ -194,7 +194,7 @@ DNN、LSTM，Bidirectional-LSTM，作横向对比
 
 ##### 3.3.4 Learning Rate
 
-![lr](images/bi-lstm%20学习率.png)
+![lr](images/bi-lstm-学习率.png)
 
 ### 4. 识别结果
 
